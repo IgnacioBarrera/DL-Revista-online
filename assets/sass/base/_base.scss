@@ -1,0 +1,32 @@
+@media screen and (min-width: 576px) {
+    body {
+        width: 576px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    body {
+        width: 960px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        width: 960px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    margin: 0 auto;
+}

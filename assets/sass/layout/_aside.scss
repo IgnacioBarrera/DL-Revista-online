@@ -1,0 +1,86 @@
+@media screen and (max-width: 576px) {
+    .listado-izquierdo {
+        width: 220px;
+        float: right;
+        display: none;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .listado-izquierdo {
+        width: 220px;
+        float: right;
+        display: none;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    // Reglas CSS
+    .listado-izquierdo {
+        width: 220px;
+        float: right;
+        display: none;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    // Reglas CSS
+    .listado-izquierdo {
+        width: 220px;
+        float: right;
+        display: block;
+        overflow: visible;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    // Reglas CSS
+    .listado-izquierdo {
+        width: 220px;
+        float: right;
+        display: block;
+        overflow: visible;
+    }
+}
+
+aside .tags ul{
+    display: inline-flex;
+    margin-top: 0;
+    li {
+        margin: 0 .5rem;
+    }
+}
+
+.cabecera-listado {
+    width: 220px;
+    border-bottom: 1px solid gray;
+}
+
+.tags {
+    border-bottom: 1px solid gray;
+}
+
+.tags ul {
+    padding: 0;
+    list-style: none;
+}
+
+.tags ul li {
+    padding: 2px 4px;
+    background-color: steelblue;
+    margin-right: 1px;
+    color: white;
+}
+
+.noticias-destacadas {
+    margin-bottom: 50px;
+}
+
+.noticias-destacadas img {
+    width: 220px;
+    height: 200px;
+}
