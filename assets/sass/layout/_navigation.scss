@@ -1,3 +1,16 @@
+@media screen and (max-width: 576px) {
+    .menu {
+        width: 576px;
+    }
+
+    .menu-nav {
+        width: auto;
+        ul li:nth-child(1) {
+            display: none;
+        }
+    }
+}
+
 @media screen and (min-width: 576px) {
     .menu {
         width: 576px;
