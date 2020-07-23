@@ -1,33 +1,5 @@
-@media screen and (min-width: 576px) {
-    // Reglas CSS
-    .newsletter {
-        width: 576px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    // Reglas CSS
-    .newsletter {
-        width: 768px;
-    }
-}
-
-@media screen and (min-width: 960px) {
-    // Reglas CSS
-    .newsletter {
-        width: 960px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    // Reglas CSS
-    .newsletter {
-        width: 960px;
-    }
-}
-
-
 .newsletter {
+    width: 100%;
     clear: both;
 }
 
