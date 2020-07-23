@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
     .listad-noticias {
         width: 100%;
         margin: 0 auto;
@@ -31,9 +31,11 @@
         width: 700px;
         margin: 0 auto;
     }
-}
+} */
 
 .listad-noticias {
+    width: 700px;
+    margin: 0 auto;
     float: left;
     text-align: center;
 }

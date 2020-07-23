@@ -29,7 +29,7 @@ body {
 
 @media screen and (max-width: 576px) {
   .menu {
-    width: 576px;
+    width: 100%;
   }
 
   .menu-nav {
@@ -387,37 +387,43 @@ body {
     grid-column: span 1;
   }
 }
-@media screen and (max-width: 576px) {
-  .listad-noticias {
-    width: 100%;
-    margin: 0 auto;
-  }
+/* @media screen and (max-width: 576px) {
+    .listad-noticias {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
+
 @media screen and (min-width: 576px) {
-  .listad-noticias {
-    width: 100%;
-    margin: 0 auto;
-  }
+    .listad-noticias {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
+
 @media screen and (min-width: 768px) {
-  .listad-noticias {
-    width: 100%;
-    margin: 0 auto;
-  }
+    .listad-noticias {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
+
 @media screen and (min-width: 960px) {
-  .listad-noticias {
-    width: 700px;
-    margin: 0 auto;
-  }
+    .listad-noticias {
+        width: 700px;
+        margin: 0 auto;
+    }
 }
+
 @media screen and (min-width: 1200px) {
-  .listad-noticias {
-    width: 700px;
-    margin: 0 auto;
-  }
-}
+    .listad-noticias {
+        width: 700px;
+        margin: 0 auto;
+    }
+} */
 .listad-noticias {
+  width: 700px;
+  margin: 0 auto;
   float: left;
   text-align: center;
 }
@@ -498,46 +504,59 @@ body {
   font-size: 24px;
 }
 
-@media screen and (max-width: 576px) {
-  .listado-izquierdo {
-    width: 220px;
-    float: right;
-    display: none;
-    overflow: hidden;
-  }
+/* @media screen and (max-width: 576px) {
+    .listado-izquierdo {
+        width: 220px;
+        float: right;
+        display: none;
+        overflow: hidden;
+    }
 }
+
 @media screen and (min-width: 576px) {
-  .listado-izquierdo {
-    width: 220px;
-    float: right;
-    display: none;
-    overflow: hidden;
-  }
+    .listado-izquierdo {
+        width: 220px;
+        float: right;
+        display: none;
+        overflow: hidden;
+    }
 }
+
 @media screen and (min-width: 768px) {
-  .listado-izquierdo {
-    width: 220px;
-    float: right;
-    display: none;
-    overflow: hidden;
-  }
+    // Reglas CSS
+    .listado-izquierdo {
+        width: 220px;
+        float: right;
+        display: none;
+        overflow: hidden;
+    }
 }
+
 @media screen and (min-width: 992px) {
-  .listado-izquierdo {
-    width: 220px;
-    float: right;
-    display: block;
-    overflow: visible;
-  }
+    // Reglas CSS
+    .listado-izquierdo {
+        width: 220px;
+        float: right;
+        display: block;
+        overflow: visible;
+    }
+
 }
+
 @media screen and (min-width: 1200px) {
-  .listado-izquierdo {
-    width: 220px;
-    float: right;
-    display: block;
-    overflow: visible;
-  }
+    // Reglas CSS
+    .listado-izquierdo {
+        width: 220px;
+        float: right;
+        display: block;
+        overflow: visible;
+    }
+} */
+.listado-izquierdo {
+  width: 220px;
+  float: right;
 }
+
 aside .tags ul {
   display: inline-flex;
   margin-top: 0;

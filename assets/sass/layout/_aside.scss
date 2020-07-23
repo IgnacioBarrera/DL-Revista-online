@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
     .listado-izquierdo {
         width: 220px;
         float: right;
@@ -44,6 +44,14 @@
         float: right;
         display: block;
         overflow: visible;
+    }
+} */
+
+.listado-izquierdo {
+    width: 220px;
+    float: right;
+    @include respond-to('md') {
+        display:none;
     }
 }
 
