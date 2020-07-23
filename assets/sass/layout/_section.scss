@@ -1,6 +1,15 @@
+@media screen and (max-width: 576px) {
+    .news {
+        width: 100% !important;
+    }
+    .news-cuerpo img {
+        width: 100% !important;
+    }
+}
+
+
 .listad-noticias {
     float: left;
-    text-align: center;
     width: 100%;
     margin: 0 auto;
 }
